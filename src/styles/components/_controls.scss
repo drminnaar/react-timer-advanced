@@ -1,0 +1,12 @@
+.controls {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;    
+    width: 16rem;    
+}
+
+.controls > button {
+    border-radius: 0;
+    width: 100%;
+}

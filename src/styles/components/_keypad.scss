@@ -1,0 +1,18 @@
+.keypad {
+    background-color: #999;
+    padding: 0.2rem;
+    height: 10rem;
+}
+
+.keypad-row {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 15.6rem;
+}
+
+.keypad-row > button {
+    margin: 0.2rem;
+    width: 100%;
+}

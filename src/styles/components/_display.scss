@@ -1,0 +1,90 @@
+$display-background-color: whitesmoke;
+$display-color: #222;
+
+.display {
+    align-items: center;
+    background-color: $display-background-color;    
+    display: flex;
+    flex-direction: column;
+    height: 10rem;
+    justify-content: center;
+    margin: auto;
+    width: 16rem;
+}
+
+.display-time {
+    border: none;
+    color: $display-color;
+    font-size: 24px;
+    font-weight: 600;
+    outline-width: 0;
+    text-align: center;
+}
+
+.display-label {
+    border: none;
+    color: #999;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0 2.3rem;
+    text-align: center;
+}
+
+.display-input-group {
+    padding: 0.2rem;
+}
+
+.display-time.display-hours {    
+    border-right: none;
+}
+
+.display-time.display-minutes {    
+    border-left: none;
+    border-right: none;
+}
+
+.display-time.display-seconds {    
+    border-left: none;
+    border-right: none;
+}
+
+.display-time.display-milliseconds {    
+    border-left: none;
+}
+
+.display-time.display-separator {  
+    background: white;  
+    border-left: none;
+    border-right: none;
+    padding-top: 0.59rem;
+}
+
+.display-time.form-control {
+     font-size: 28px;
+}
+
+.display-countdown-time {
+    color: #0082F7;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.display-countdown {
+    align-items: center;
+    background-color: $display-background-color;        
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    justify-content: center;
+    margin: auto;
+    width: 16rem;
+}
+
+.display-countdown-label {
+    border: none;
+    color: #999;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0 1.2rem;
+    text-align: center;
+}

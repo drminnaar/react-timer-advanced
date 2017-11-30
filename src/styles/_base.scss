@@ -1,0 +1,12 @@
+body {
+    background-color: $smoke;
+    font-family: $font-family;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}

@@ -29,7 +29,6 @@ This project also demonstrates:
 * [react-clicker]
 * [react-clock-basic]
 * [react-timer-basic]
-* [react-timer-advanced]
 * [react-masterminds]
 
 ---
@@ -144,5 +143,4 @@ I use [SemVer](http://semver.org/) for versioning. For the versions available, s
 [react-clicker]: https://github.com/drminnaar/react-clicker
 [react-clock-basic]: https://github.com/drminnaar/react-clock-basic
 [react-timer-basic]: https://github.com/drminnaar/react-timer-basic
-[react-timer-advanced]: https://github.com/drminnaar/react-timer-advanced
 [react-masterminds]: https://github.com/drminnaar/react-masterminds

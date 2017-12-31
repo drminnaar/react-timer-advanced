@@ -2,6 +2,21 @@
 
 A basic countdown timer that offers an advanced UI experience. The _Timer_ uses a _Keypad_ to enter hours, minutes, and seconds into a _Display_. The countdown timer changes to fullscreen when the _Timer_ is started. A control panel allows one to start, stop, resume, and reset the timer.
 
+The application is composed of the following components:
+
+* Header - A heading that displays application title
+
+* Timer - The primary (root) component that manages state for Timer and all underlying components
+
+* Display - Display the timer
+
+* Keypad - Used to input the the time
+
+* Controls - Used to control the state of the timer (start, stop, reset)
+
+Component Diagram
+![Component Diagram](https://user-images.githubusercontent.com/33935506/34461247-53df6f8e-ee2e-11e7-8380-adb5cf6698ae.png)
+
 This project also demonstrates:
 
 * a typcial React project layout structure
@@ -12,7 +27,10 @@ This project also demonstrates:
 
 **Screenshots:**
 
-![react-timer-advanced-1](https://user-images.githubusercontent.com/33935506/33770696-521ef0ec-dc37-11e7-8d48-8c1d55929c22.PNG)![react-timer-advanced-2](https://user-images.githubusercontent.com/33935506/33770697-5254cb86-dc37-11e7-8c36-de79804b7bfc.PNG)![react-timer-advanced-3](https://user-images.githubusercontent.com/33935506/33770698-52879020-dc37-11e7-8c4b-634a95a34079.PNG)
+... | ...
+--- | ---
+![](https://user-images.githubusercontent.com/33935506/33770696-521ef0ec-dc37-11e7-8d48-8c1d55929c22.PNG) | ![](https://user-images.githubusercontent.com/33935506/33770697-5254cb86-dc37-11e7-8c36-de79804b7bfc.PNG)
+![](https://user-images.githubusercontent.com/33935506/33770698-52879020-dc37-11e7-8c4b-634a95a34079.PNG) |
 
 ---
 
@@ -52,6 +70,18 @@ This project also demonstrates:
 * [react-movie-cards]
 
   A basic application that displays a list of movies as a list of cards
+
+* [react-calculator-standard]
+
+  A calculator that provides the essential arithmetic operations, an expression builder, and a complete history of all expressions
+
+* [react-bitcoin-monitor]
+
+  An app that monitors changes in the Bitcoin Price Index (BPI)
+
+* [react-weather-standard]
+
+  A weather application that displays the current weather, daily forecasts, and hourly forecasts based on your current geolocation
 
 ---
 
@@ -167,3 +197,7 @@ I use [SemVer](http://semver.org/) for versioning. For the versions available, s
 [react-timer-basic]: https://github.com/drminnaar/react-timer-basic
 [react-timer-advanced]: https://github.com/drminnaar/react-timer-advanced
 [react-masterminds]: https://github.com/drminnaar/react-masterminds
+[react-movie-cards]: https://github.com/drminnaar/react-movie-cards
+[react-calculator-standard]: https://github.com/drminnaar/react-calculator-standard
+[react-bitcoin-monitor]: https://github.com/drminnaar/react-bitcoin-monitor
+[react-weather-standard]: https://github.com/drminnaar/react-weather-standard
